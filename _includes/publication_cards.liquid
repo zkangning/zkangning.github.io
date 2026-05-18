@@ -1,0 +1,34 @@
+<div class="publication-note">
+  <sup>*</sup> indicates equal contribution. Representative papers are highlighted.
+</div>
+
+<div class="publication-card-list">
+  {% assign publications = site.data.publications %}
+  {% if include.limit %}
+    {% assign limit = include.limit %}
+  {% else %}
+    {% assign limit = publications.size %}
+  {% endif %}
+  {% for pub in publications limit: limit %}
+    <article class="publication-card{% if pub.featured %} featured{% endif %}">
+      <div class="publication-card-media {{ pub.image_class | default: 'standard' }}">
+        {% assign preview_path = pub.preview | prepend: '/assets/img/publication_preview/' %}
+        <img src="{{ preview_path | relative_url }}" alt="{{ pub.title | escape }} preview" loading="lazy" decoding="async">
+      </div>
+      <div class="publication-card-body">
+        <h3 class="publication-card-title">{{ pub.title }}</h3>
+        <p class="publication-card-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        <p class="publication-card-venue">{{ pub.venue }}</p>
+        {% if pub.note %}
+          <p class="publication-card-note">{{ pub.note }}</p>
+        {% endif %}
+        <div class="publication-card-links">
+          {% for link in pub.links %}
+            <a href="{{ link.url }}" target="_blank" rel="external nofollow noopener">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+        <p class="publication-card-abstract">{{ pub.description }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

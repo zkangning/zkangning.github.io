@@ -1,0 +1,27 @@
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
+"RSS":
+  url: https://roboticsconference.org/
+  color: "#1f5f8b"
+
+"CIKM":
+  url: https://www.cikmconference.org/
+  color: "#6f42c1"
+
+"WWW":
+  url: https://www2024.thewebconf.org/
+  color: "#0b7285"
+
+"KDD":
+  url: https://kdd.org/
+  color: "#c65102"
+
+"ACL":
+  url: https://www.aclweb.org/
+  color: "#2b6cb0"
+
+"CCIR":
+  url: https://link.springer.com/conference/ccir
+  color: "#495057"

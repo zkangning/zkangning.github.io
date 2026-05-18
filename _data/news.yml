@@ -1,0 +1,37 @@
+- date: 2026-05-18 21:00:00 +0800
+  text: "MMSkills is released."
+  links:
+    - label: "Project"
+      url: "https://deepexperience.github.io/MMSkills/"
+    - label: "Code"
+      url: "https://github.com/DeepExperience/MMSkills"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2605.13527"
+    - label: "Dataset"
+      url: "https://huggingface.co/datasets/zkangning/towards_mmskills"
+
+- date: 2026-05-18 20:00:00 +0800
+  text: "LoopTool is accepted by ACL 2026 main."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2511.09148"
+    - label: "Code"
+      url: "https://github.com/Rednote-DeepExperience/LoopTool"
+
+- date: 2026-05-13 16:05:00 +0800
+  text: "SWE-Cycle is available on arXiv for benchmarking code agents across the complete issue resolution cycle."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2605.13139"
+
+- date: 2026-03-29
+  text: "MuSEAgent is available on arXiv for multimodal reasoning with stateful experiences."
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2603.27813"
+
+# - date: 2025-07-01 12:00:00 +0800
+#   text: "Our automatic LLM-based graph construction framework for recommendation was accepted to KDD 2025."
+#   links:
+#     - label: "Paper"
+#       url: "https://arxiv.org/abs/2412.18241"
