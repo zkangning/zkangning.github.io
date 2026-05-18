@@ -19,13 +19,15 @@
           alt="{{ pub.title | escape }} preview"
           loading="lazy"
           decoding="async"
-          data-zoomable
+          data-publication-preview
+          data-preview-src="{{ preview_path | relative_url }}"
+          data-preview-title="{{ pub.title | escape }}"
         >
         <button
           class="publication-preview-zoom"
           type="button"
-          aria-label="Enlarge preview for {{ pub.title | escape }}"
-          title="Enlarge preview"
+          aria-label="Open preview for {{ pub.title | escape }}"
+          title="Open preview"
         >
           <i class="fa-solid fa-expand" aria-hidden="true"></i>
         </button>
