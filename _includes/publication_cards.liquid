@@ -13,7 +13,22 @@
     <article class="publication-card{% if pub.featured %} featured{% endif %}">
       <div class="publication-card-media {{ pub.image_class | default: 'standard' }}">
         {% assign preview_path = pub.preview | prepend: '/assets/img/publication_preview/' %}
-        <img src="{{ preview_path | relative_url }}" alt="{{ pub.title | escape }} preview" loading="lazy" decoding="async">
+        <img
+          class="publication-card-preview"
+          src="{{ preview_path | relative_url }}"
+          alt="{{ pub.title | escape }} preview"
+          loading="lazy"
+          decoding="async"
+          data-zoomable
+        >
+        <button
+          class="publication-preview-zoom"
+          type="button"
+          aria-label="Enlarge preview for {{ pub.title | escape }}"
+          title="Enlarge preview"
+        >
+          <i class="fa-solid fa-expand" aria-hidden="true"></i>
+        </button>
       </div>
       <div class="publication-card-body">
         <h3 class="publication-card-title">{{ pub.title }}</h3>

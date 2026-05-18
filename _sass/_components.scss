@@ -170,6 +170,7 @@ html[data-theme="dark"] .publication-card.featured {
 }
 
 .publication-card-media {
+  position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
@@ -186,6 +187,10 @@ html[data-theme="dark"] .publication-card.featured {
     transition: transform 0.2s ease;
   }
 
+  .publication-card-preview {
+    cursor: zoom-in;
+  }
+
   &.wide img {
     object-fit: contain;
     padding: 0.35rem;
@@ -193,8 +198,57 @@ html[data-theme="dark"] .publication-card.featured {
   }
 }
 
-.publication-card:hover .publication-card-media img {
+.publication-card:hover .publication-card-media img:not(.medium-zoom-image--opened) {
   transform: scale(1.02);
+}
+
+.publication-preview-zoom {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.55rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.68);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 6px 18px rgba(22, 37, 64, 0.16);
+  color: var(--global-text-color);
+  cursor: zoom-in;
+  opacity: 0;
+  transform: translateY(-0.2rem);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    opacity 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    transform: translateY(-0.2rem) scale(1.04);
+  }
+
+  &:focus-visible {
+    opacity: 1;
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+}
+
+.publication-card-media:hover .publication-preview-zoom,
+.publication-card-media:focus-within .publication-preview-zoom {
+  opacity: 1;
+}
+
+html[data-theme="dark"] .publication-preview-zoom {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(31, 31, 31, 0.88);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.34);
 }
 
 .publication-card-title {
@@ -274,6 +328,16 @@ html[data-theme="dark"] .publication-card.featured {
 
   .publication-card-media {
     aspect-ratio: 16 / 10;
+  }
+
+  .publication-preview-zoom {
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .publication-preview-zoom {
+    opacity: 1;
   }
 }
 
