@@ -42,6 +42,7 @@ I obtained my bachelor's degree from Shanghai Jiao Tong University. My research 
     <div class="internship-card-body">
       <h3>DeepExperience, Xiaohongshu</h3>
       <p class="internship-card-role">Research Intern</p>
+      <p class="internship-card-time">2025-Present</p>
       <p>Research on agent tool calling and skills in the <a href="https://github.com/DeepExperience" target="_blank" rel="external nofollow noopener">DeepExperience</a> group.</p>
     </div>
     <div class="internship-card-logo">
@@ -53,6 +54,7 @@ I obtained my bachelor's degree from Shanghai Jiao Tong University. My research 
     <div class="internship-card-body">
       <h3>Meituan</h3>
       <p class="internship-card-role">Research Intern</p>
+      <p class="internship-card-time">2024-2025</p>
       <p>Research on generative recommendation with language models.</p>
     </div>
     <div class="internship-card-logo">
@@ -64,10 +66,11 @@ I obtained my bachelor's degree from Shanghai Jiao Tong University. My research 
     <div class="internship-card-body">
       <h3>Shanghai Qi Zhi Institute</h3>
       <p class="internship-card-role">Research Intern</p>
+      <p class="internship-card-time">2023-2024</p>
       <p>Research on robotics learning.</p>
     </div>
-    <div class="internship-card-logo internship-card-logo-wide">
-      <img src="{{ '/assets/img/internships/qizhi.svg' | relative_url }}" alt="Shanghai Qi Zhi Institute logo" loading="lazy" decoding="async">
+    <div class="internship-card-logo">
+      <img src="{{ '/assets/img/internships/qizhi.jpg' | relative_url }}" alt="Shanghai Qi Zhi Institute logo" loading="lazy" decoding="async">
     </div>
   </article>
 </div>
