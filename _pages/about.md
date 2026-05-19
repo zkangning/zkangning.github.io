@@ -35,15 +35,41 @@ I obtained my bachelor's degree from Shanghai Jiao Tong University. My research 
   <a href="https://x.com/Kangning15257" target="_blank" rel="external nofollow noopener">Twitter</a>
 </div>
 
-## Internship
+## Internships
 
-**Xiao Hong Shu**  
-I currently focus on agent tool calling and skills research in the [DeepExperience](https://github.com/DeepExperience) group.
+<div class="internship-card-list">
+  <article class="internship-card">
+    <div class="internship-card-body">
+      <h3>DeepExperience, Xiaohongshu</h3>
+      <p class="internship-card-role">Research Intern</p>
+      <p>Research on agent tool calling and skills in the <a href="https://github.com/DeepExperience" target="_blank" rel="external nofollow noopener">DeepExperience</a> group.</p>
+    </div>
+    <div class="internship-card-logo">
+      <img src="{{ '/assets/img/internships/xiaohongshu.png' | relative_url }}" alt="Xiaohongshu logo" loading="lazy" decoding="async">
+    </div>
+  </article>
 
-**Meituan**  
-I work on generative recommendation with language models.
+  <article class="internship-card">
+    <div class="internship-card-body">
+      <h3>Meituan</h3>
+      <p class="internship-card-role">Research Intern</p>
+      <p>Research on generative recommendation with language models.</p>
+    </div>
+    <div class="internship-card-logo">
+      <img src="{{ '/assets/img/internships/meituan.png' | relative_url }}" alt="Meituan logo" loading="lazy" decoding="async">
+    </div>
+  </article>
 
-**Shanghai Qi Zhi Institute**  
-I worked on robotics learning.
+  <article class="internship-card">
+    <div class="internship-card-body">
+      <h3>Shanghai Qi Zhi Institute</h3>
+      <p class="internship-card-role">Research Intern</p>
+      <p>Research on robotics learning.</p>
+    </div>
+    <div class="internship-card-logo internship-card-logo-wide">
+      <img src="{{ '/assets/img/internships/qizhi.svg' | relative_url }}" alt="Shanghai Qi Zhi Institute logo" loading="lazy" decoding="async">
+    </div>
+  </article>
+</div>
 
 **I am always open to potential collaborations. If you are interested in working together, please feel free to reach out by email.**
