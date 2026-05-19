@@ -32,6 +32,7 @@ I obtained my bachelor's degree from Shanghai Jiao Tong University. My research 
   <a href="mailto:zhangkangning@sjtu.edu.cn">Email</a>
   <a href="https://scholar.google.com/citations?user=KXOvopEAAAAJ&hl=en" target="_blank" rel="external nofollow noopener">Google Scholar</a>
   <a href="https://github.com/zkangning" target="_blank" rel="external nofollow noopener">GitHub</a>
+  <a href="https://x.com/Kangning15257" target="_blank" rel="external nofollow noopener">Twitter</a>
 </div>
 
 ## Internship
