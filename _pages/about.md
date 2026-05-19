@@ -45,3 +45,5 @@ I work on generative recommendation with language models.
 
 **Shanghai Qi Zhi Institute**  
 I worked on robotics learning.
+
+**I am always open to potential collaborations. If you are interested in working together, please feel free to reach out by email.**
