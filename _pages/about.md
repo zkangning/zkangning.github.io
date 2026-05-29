@@ -28,6 +28,8 @@ I am a second-year Ph.D. student at the [APEX Lab](https://apex.sjtu.edu.cn/), S
 
 I obtained my bachelor's degree from Shanghai Jiao Tong University. My research mainly focuses on LLM-powered agents, tool calling, skills, and multimodal recommender systems. I am also interested in robotics learning.
 
+**I am always open to potential collaborations. If you are interested in working together, please feel free to reach out by email.**
+
 <div class="profile-links">
   <a href="mailto:zhangkangning@sjtu.edu.cn">Email</a>
   <a href="https://scholar.google.com/citations?user=KXOvopEAAAAJ&hl=en" target="_blank" rel="external nofollow noopener">Google Scholar</a>
@@ -74,5 +76,3 @@ I obtained my bachelor's degree from Shanghai Jiao Tong University. My research 
     </div>
   </article>
 </div>
-
-**I am always open to potential collaborations. If you are interested in working together, please feel free to reach out by email.**
