@@ -10,7 +10,7 @@
     - label: "Paper"
       url: "https://arxiv.org/abs/2605.13527"
     - label: "Code"
-      url: "https://github.com/DeepExperience/MMSkills"
+      url: "https://github.com/zkangning/MMSkills_for_Visual_Agents"
     - label: "Dataset"
       url: "https://huggingface.co/datasets/zkangning/towards_mmskills"
   description: "MMSkills represents reusable multimodal procedural knowledge for visual agents with textual procedures, runtime state cards, and multi-view keyframes, then uses branch loading to consult relevant visual evidence during decision making."
