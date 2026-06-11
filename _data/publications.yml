@@ -47,6 +47,7 @@
   venue: "Robotics: Science and Systems (RSS), 2024"
   preview: "dp3.png"
   image_class: "wide"
+  featured: true
   links:
     - label: "Project Page"
       url: "https://3d-diffusion-policy.github.io/"
