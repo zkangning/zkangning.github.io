@@ -117,7 +117,8 @@
 
 - title: "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models"
   authors: "Congmin Zheng, Jiachen Zhu, Zhuoying Ou, Yuxiang Chen, **Kangning Zhang**, Rong Shan, Zeyu Zheng, Mengyue Yang, Jianghao Lin, Yong Yu, and Weinan Zhang"
-  venue: "arXiv preprint, 2025"
+  venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
+  note: "Main Conference"
   preview: "process-reward-models.png"
   image_class: "standard"
   links:
@@ -133,6 +134,8 @@
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2412.18241"
+    - label: "Code"
+      url: "https://github.com/LaVieEnRose365/AutoGraph"
   description: "This framework uses large language models to automate graph construction for recommendation, improving the graph learning substrate used by GNN-based recommenders."
 
 - title: "ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction"
