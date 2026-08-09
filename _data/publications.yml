@@ -1,3 +1,27 @@
+- title: "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation"
+  authors: "**Kangning Zhang**, Yixing Li, Shuai Shao, Qingyao Li, Zhengxi Lu, Zhiyuan Yao, Jianghao Lin, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
+  venue: "arXiv preprint, 2026"
+  preview: "vad.png"
+  image_class: "wide"
+  featured: true
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2607.28590"
+    - label: "Code"
+      url: "https://github.com/DeepExperience/VAD_Multimodal_OPD"
+  description: "VAD attributes teacher corrections to controlled visual evidence and reconstructs student-anchored supervision targets for multimodal on-policy distillation, outperforming direct privileged-view distillation across six fine-grained visual benchmarks."
+
+- title: "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories"
+  authors: "Shuai Shao\\*, **Kangning Zhang**\\*, Qingyao Li, Shijian Wang, Hao Wang, Wenxiang Jiao, Yuan Lu, Yi Guo, Weiwen Liu, and Weinan Zhang"
+  venue: "arXiv preprint, 2026"
+  preview: "harness-r1.png"
+  image_class: "wide"
+  featured: true
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2608.02276"
+  description: "Harness-R1 trains a dedicated harness engineer to turn agent failure trajectories into validated executable runtime patches, improving target-agent success both before and after direct fine-tuning."
+
 - title: "MMSkills: Towards Multimodal Skills for General Visual Agents"
   authors: "**Kangning Zhang**\\*, Shuai Shao\\*, Qingyao Li, Jianghao Lin, Lingyue Fu, Shijian Wang, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
@@ -82,6 +106,16 @@
     - label: "Paper"
       url: "https://arxiv.org/abs/2606.12245"
   description: "DiffCold tackles cold-start recommendation with diffusion-based representation simulation, retrieval-enhanced aggregation, and representation alignment for cold items."
+
+- title: "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution"
+  authors: "Zhiyuan Yao, Yuxin Chen, Zhengxi Lu, Zishan Xu, Yueqing Sun, Yifu Guo, Yuquan Lu, Zhengzhou Cai, **Kangning Zhang**, Zhuowen Han, Zi-Han Wang, Ziang Ye, Qi Gu, Xunliang Cai, Weiwen Liu, and Yongliang Shen"
+  venue: "arXiv preprint, 2026"
+  preview: "skillrise.png"
+  image_class: "wide"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2607.26784"
+  description: "SkillRise unifies cross-task solving and skill-document curation within reinforcement learning, enabling efficient skill evolution and transfer across progressively related tasks."
 
 - title: "SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution Cycle"
   authors: "Hao Guan, Lingyue Fu, Shao Zhang, Yaoming Zhu, **Kangning Zhang**, Lin Qiu, Xunliang Cai, Xuezhi Cao, Weiwen Liu, Weinan Zhang, and Yong Yu"

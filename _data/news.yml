@@ -1,40 +1,39 @@
+- date: 2026-08-03 22:12:18 +0800
+  text: "[HARNESS-R1](https://arxiv.org/abs/2608.02276) is available on arXiv for learning to edit executable runtime harnesses from agent failure trajectories."
+
+- date: 2026-07-31 01:43:46 +0800
+  text: "[VAD](https://arxiv.org/abs/2607.28590) is available on arXiv for visual-evidence attribution in multimodal on-policy distillation."
+  links:
+    - label: "Code"
+      url: "https://github.com/DeepExperience/VAD_Multimodal_OPD"
+
+- date: 2026-07-29 19:26:33 +0800
+  text: "[SKILLRISE](https://arxiv.org/abs/2607.26784) is available on arXiv for cross-task skill evolution with agentic reinforcement learning."
+
 - date: 2026-05-28 12:00:00 +0800
-  text: "MOTOR and DiffCold are accepted by ECML-PKDD (CCF-B) 2026."
+  text: "[MOTOR](https://arxiv.org/abs/2410.19276) and [DIFFCOLD](https://arxiv.org/abs/2606.12245) are accepted by ECML-PKDD (CCF-B) 2026."
 
 - date: 2026-05-18 21:00:00 +0800
-  text: "MMSkills is released."
+  text: "[MMSKILLS](https://arxiv.org/abs/2605.13527) is released."
   links:
     - label: "Project"
       url: "https://deepexperience.github.io/MMSkills/"
     - label: "Code"
       url: "https://github.com/zkangning/MMSkills_for_Visual_Agents"
-    - label: "arXiv"
-      url: "https://arxiv.org/abs/2605.13527"
     - label: "Dataset"
       url: "https://huggingface.co/datasets/zkangning/towards_mmskills"
 
 - date: 2026-05-18 20:00:00 +0800
-  text: "LoopTool is accepted by ACL 2026 main."
+  text: "[LOOPTOOL](https://arxiv.org/abs/2511.09148) is accepted by ACL 2026 main."
   links:
-    - label: "Paper"
-      url: "https://arxiv.org/abs/2511.09148"
     - label: "Code"
       url: "https://github.com/Rednote-DeepExperience/LoopTool"
 
 - date: 2026-05-13 16:05:00 +0800
-  text: "SWE-Cycle is available on arXiv for benchmarking code agents across the complete issue resolution cycle."
-  links:
-    - label: "Paper"
-      url: "https://arxiv.org/abs/2605.13139"
+  text: "[SWE-CYCLE](https://arxiv.org/abs/2605.13139) is available on arXiv for benchmarking code agents across the complete issue resolution cycle."
 
 - date: 2026-03-29
-  text: "MuSEAgent is available on arXiv for multimodal reasoning with stateful experiences."
-  links:
-    - label: "Paper"
-      url: "https://arxiv.org/abs/2603.27813"
+  text: "[MUSEAGENT](https://arxiv.org/abs/2603.27813) is available on arXiv for multimodal reasoning with stateful experiences."
 
 # - date: 2025-07-01 12:00:00 +0800
-#   text: "Our automatic LLM-based graph construction framework for recommendation was accepted to KDD 2025."
-#   links:
-#     - label: "Paper"
-#       url: "https://arxiv.org/abs/2412.18241"
+#   text: "[AUTOGRAPH](https://arxiv.org/abs/2412.18241) was accepted to KDD 2025."
