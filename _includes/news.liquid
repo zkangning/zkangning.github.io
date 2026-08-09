@@ -36,6 +36,9 @@
         {% endfor %}
       </table>
     </div>
+    {% if news_is_scrollable %}
+      <script src="{{ '/assets/js/news-scroll.js' | relative_url | bust_file_cache }}"></script>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}
