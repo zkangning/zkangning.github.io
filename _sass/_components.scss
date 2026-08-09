@@ -121,6 +121,39 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// News archive
+
+.news-scroll {
+  max-height: min(28rem, 65vh);
+  padding-right: 0.45rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+
+  table {
+    margin-bottom: 0;
+  }
+
+  th,
+  td {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  .news-scroll {
+    max-height: min(24rem, 60vh);
+  }
+}
+
 // Internship cards
 
 .internship-card-list {

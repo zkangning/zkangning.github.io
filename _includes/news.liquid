@@ -2,10 +2,15 @@
   {% if site.data.news != blank %}
     {% assign news = site.data.news %}
     {% assign news_size = news | size %}
+    {% assign news_is_scrollable = false %}
+    {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+      {% assign news_is_scrollable = true %}
+    {% endif %}
     <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+      class="table-responsive{% if news_is_scrollable %} news-scroll{% endif %}"
+      {% if news_is_scrollable %}
+        tabindex="0"
+        aria-label="Scrollable news archive"
       {% endif %}
     >
       <table class="table table-sm table-borderless">

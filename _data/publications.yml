@@ -1,3 +1,20 @@
+- title: "MMSkills: Towards Multimodal Skills for General Visual Agents"
+  authors: "**Kangning Zhang**\\*, Shuai Shao\\*, Qingyao Li, Jianghao Lin, Lingyue Fu, Shijian Wang, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
+  venue: "arXiv preprint, 2026"
+  preview: "mmskills.png"
+  image_class: "wide"
+  featured: true
+  links:
+    - label: "Project Page"
+      url: "https://deepexperience.github.io/MMSkills/"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2605.13527"
+    - label: "Code"
+      url: "https://github.com/zkangning/MMSkills_for_Visual_Agents"
+    - label: "Dataset"
+      url: "https://huggingface.co/datasets/zkangning/towards_mmskills"
+  description: "MMSkills represents reusable multimodal procedural knowledge for visual agents with textual procedures, runtime state cards, and multi-view keyframes, then uses branch loading to consult relevant visual evidence during decision making."
+
 - title: "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation"
   authors: "**Kangning Zhang**, Yixing Li, Shuai Shao, Qingyao Li, Zhengxi Lu, Zhiyuan Yao, Jianghao Lin, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
@@ -20,24 +37,9 @@
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2608.02276"
-  description: "Harness-R1 trains a dedicated harness engineer to turn agent failure trajectories into validated executable runtime patches, improving target-agent success both before and after direct fine-tuning."
-
-- title: "MMSkills: Towards Multimodal Skills for General Visual Agents"
-  authors: "**Kangning Zhang**\\*, Shuai Shao\\*, Qingyao Li, Jianghao Lin, Lingyue Fu, Shijian Wang, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
-  venue: "arXiv preprint, 2026"
-  preview: "mmskills.png"
-  image_class: "wide"
-  featured: true
-  links:
-    - label: "Project Page"
-      url: "https://deepexperience.github.io/MMSkills/"
-    - label: "Paper"
-      url: "https://arxiv.org/abs/2605.13527"
     - label: "Code"
-      url: "https://github.com/zkangning/MMSkills_for_Visual_Agents"
-    - label: "Dataset"
-      url: "https://huggingface.co/datasets/zkangning/towards_mmskills"
-  description: "MMSkills represents reusable multimodal procedural knowledge for visual agents with textual procedures, runtime state cards, and multi-view keyframes, then uses branch loading to consult relevant visual evidence during decision making."
+      url: "https://github.com/DeepExperience/Harness-R1"
+  description: "Harness-R1 trains a dedicated harness engineer to turn agent failure trajectories into validated executable runtime patches, improving target-agent success both before and after direct fine-tuning."
 
 - title: "LoopTool: Closing the Data-Training Loop for Robust LLM Tool Calls"
   authors: "**Kangning Zhang**, Wenxiang Jiao, Kounianhua Du, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"

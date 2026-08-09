@@ -1,5 +1,8 @@
 - date: 2026-08-03 22:12:18 +0800
   text: "[HARNESS-R1](https://arxiv.org/abs/2608.02276) is available on arXiv for learning to edit executable runtime harnesses from agent failure trajectories."
+  links:
+    - label: "Code"
+      url: "https://github.com/DeepExperience/Harness-R1"
 
 - date: 2026-07-31 01:43:46 +0800
   text: "[VAD](https://arxiv.org/abs/2607.28590) is available on arXiv for visual-evidence attribution in multimodal on-policy distillation."
@@ -24,7 +27,7 @@
       url: "https://huggingface.co/datasets/zkangning/towards_mmskills"
 
 - date: 2026-05-18 20:00:00 +0800
-  text: "[LOOPTOOL](https://arxiv.org/abs/2511.09148) is accepted by ACL 2026 main."
+  text: "[LOOPTOOL](https://arxiv.org/abs/2511.09148) and the [PROCESS REWARD MODEL SURVEY](https://arxiv.org/abs/2510.08049) are accepted by ACL 2026 Main Conference."
   links:
     - label: "Code"
       url: "https://github.com/Rednote-DeepExperience/LoopTool"
@@ -35,5 +38,20 @@
 - date: 2026-03-29
   text: "[MUSEAGENT](https://arxiv.org/abs/2603.27813) is available on arXiv for multimodal reasoning with stateful experiences."
 
-# - date: 2025-07-01 12:00:00 +0800
-#   text: "[AUTOGRAPH](https://arxiv.org/abs/2412.18241) was accepted to KDD 2025."
+- date: 2025-10-31 14:01:04 +0800
+  text: "[FINTS](https://arxiv.org/abs/2510.27206) is available on arXiv for efficient inference-time personalization of LLMs."
+
+- date: 2025-07-01 12:00:00 +0800
+  text: "[AUTOGRAPH](https://arxiv.org/abs/2412.18241) is accepted by KDD 2025."
+
+- date: 2024-03-19 10:49:32 +0800
+  text: "[ALIGNREC](https://arxiv.org/abs/2403.12384) is available on arXiv and appears at CIKM 2024."
+
+- date: 2024-03-07 02:58:49 +0800
+  text: "[3D DIFFUSION POLICY](https://arxiv.org/abs/2403.03954) is available on arXiv and appears at RSS 2024."
+
+- date: 2023-10-14 00:37:53 +0800
+  text: "[CLICKPROMPT](https://arxiv.org/abs/2310.09234) is available on arXiv and appears at WWW 2024."
+
+- date: 2023-09-05 12:12:01 +0800
+  text: "[CODEAPEX](https://arxiv.org/abs/2309.01940) is available on arXiv as a bilingual programming benchmark for large language models."

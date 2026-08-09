@@ -15,8 +15,8 @@ social: false
 
 announcements:
   enabled: true
-  scrollable: false
-  limit: 5
+  scrollable: true
+  limit:
 
 latest_posts:
   enabled: false
@@ -73,6 +73,18 @@ I received my bachelor's degree in Computer Science from the IEEE Pilot Class at
     </div>
     <div class="internship-card-logo">
       <img src="{{ '/assets/img/internships/qizhi.jpg' | relative_url }}" alt="Shanghai Qi Zhi Institute logo" loading="lazy" decoding="async">
+    </div>
+  </article>
+
+  <article class="internship-card">
+    <div class="internship-card-body">
+      <h3>Huawei</h3>
+      <p class="internship-card-role">Research Intern</p>
+      <p class="internship-card-time">2022-2023</p>
+      <p>Research on large language models for recommendation.</p>
+    </div>
+    <div class="internship-card-logo">
+      <img src="{{ '/assets/img/internships/huawei.png' | relative_url }}" alt="Huawei logo" loading="lazy" decoding="async">
     </div>
   </article>
 </div>
