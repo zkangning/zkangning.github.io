@@ -16,6 +16,7 @@ social: false
 announcements:
   enabled: true
   scrollable: true
+  visible_items: 6
   limit:
 
 latest_posts:

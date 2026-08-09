@@ -11,6 +11,7 @@
       {% if news_is_scrollable %}
         tabindex="0"
         aria-label="Scrollable news archive"
+        data-visible-items="{{ page.announcements.visible_items | default: 6 }}"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
