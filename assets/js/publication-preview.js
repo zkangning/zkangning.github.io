@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const lightboxImage = lightbox.querySelector(".publication-lightbox-image");
   const lightboxTitle = lightbox.querySelector(".publication-lightbox-title");
   const closeButton = lightbox.querySelector(".publication-lightbox-close");
+  let lastTrigger = null;
 
   function imageFromTrigger(trigger) {
     if (trigger.classList.contains("publication-card-preview")) {
@@ -35,9 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
     return media ? media.querySelector(".publication-card-preview") : null;
   }
 
-  function openPreview(image) {
+  function openPreview(image, trigger) {
     const title = image.dataset.previewTitle || image.alt || "";
 
+    lastTrigger = trigger;
     lightboxImage.src = image.dataset.previewSrc || image.currentSrc || image.src;
     lightboxImage.alt = image.alt || title;
     lightboxTitle.textContent = title;
@@ -58,6 +60,10 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!lightbox.classList.contains("open")) {
         lightbox.hidden = true;
         lightboxImage.removeAttribute("src");
+        if (lastTrigger) {
+          lastTrigger.focus({ preventScroll: true });
+          lastTrigger = null;
+        }
       }
     }, 180);
   }
@@ -72,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       event.preventDefault();
       event.stopPropagation();
-      openPreview(image);
+      openPreview(image, trigger);
     });
   });
 
@@ -86,6 +92,10 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape" && !lightbox.hidden) {
       closePreview();
+    }
+    if (event.key === "Tab" && !lightbox.hidden) {
+      event.preventDefault();
+      closeButton.focus({ preventScroll: true });
     }
   });
 });

@@ -7,34 +7,54 @@
       {% assign news_is_scrollable = true %}
     {% endif %}
     <div
-      class="table-responsive{% if news_is_scrollable %} news-scroll{% endif %}"
+      class="news-panel{% if news_is_scrollable %} news-scroll{% endif %}"
       {% if news_is_scrollable %}
         tabindex="0"
         aria-label="Scrollable news archive"
         data-visible-items="{{ page.announcements.visible_items | default: 6 }}"
       {% endif %}
     >
-      <table class="table table-sm table-borderless">
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
+      {% if include.limit and page.announcements.limit %}
+        {% assign news_limit = page.announcements.limit %}
+      {% else %}
+        {% assign news_limit = news_size %}
+      {% endif %}
+      <ol class="news-list">
         {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
-              {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
+          <li class="news-item news-item-{{ item.type | default: 'publication' }}">
+            <div class="news-icon" aria-hidden="true">
+              {% case item.type %}
+                {% when 'acceptance' %}
+                  <i class="fa-solid fa-trophy"></i>
+                {% when 'release' %}
+                  <i class="fa-solid fa-paper-plane"></i>
+                {% when 'talk' %}
+                  <i class="fa-solid fa-microphone-lines"></i>
+                {% else %}
+                  <i class="fa-solid fa-file-lines"></i>
+              {% endcase %}
+            </div>
+            <div class="news-date">
+              <time datetime="{{ item.date | date_to_xmlschema }}">
+                <span>{{ item.date | date: '%b' }}</span>
+                {{ item.date | date: '%Y' }}
+              </time>
+            </div>
+            <div class="news-content">
+              <div class="news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</div>
               {% if item.links %}
-                {% for link in item.links %}
-                  {% if forloop.first %} {% else %} / {% endif %}
-                  <a href="{{ link.url }}" target="_blank" rel="external nofollow noopener">{{ link.label }}</a>
-                {% endfor %}
+                <div class="news-links" aria-label="Related links">
+                  {% for link in item.links %}
+                    <a href="{{ link.url }}" target="_blank" rel="external nofollow noopener">
+                      {{ link.label }}<i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                  {% endfor %}
+                </div>
               {% endif %}
-            </td>
-          </tr>
+            </div>
+          </li>
         {% endfor %}
-      </table>
+      </ol>
     </div>
     {% if news_is_scrollable %}
       <script src="{{ '/assets/js/news-scroll.js' | relative_url | bust_file_cache }}"></script>

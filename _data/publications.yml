@@ -1,9 +1,39 @@
+- title: "Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation"
+  order: 5
+  first_author: true
+  author_role: "First Author"
+  authors: "**Kangning Zhang**, Haotian Fang, Xukun Luo, Hao Yin, Yang Gao, Peng Yan, Weiwen Liu, Weinan Zhang, and Yong Yu"
+  venue: "ACM International Conference on Information and Knowledge Management (CIKM), 2026"
+  badge: "CIKM 2026"
+  note: "Accepted Paper"
+  preview: "hcgrec.webp"
+  image_class: "wide"
+  featured: true
+  scholar_id: "KXOvopEAAAAJ:QIV2ME_5wuYC"
+  citations: 0
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2608.11980v2"
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3799682.3840842"
+    - label: "Code"
+      url: "https://github.com/WncFht/HCGRec"
+      repo: "WncFht/HCGRec"
+      stars: 2
+  description: "HCGRec diagnoses when finite rollout groups cannot reach the target item, supplies the shortest useful target-prefix hint, and separates supervised credit for hinted context from GRPO credit for sampled suffix actions, reducing zero-advantage training samples from over 70% to below 20%."
+
 - title: "MMSkills: Towards Multimodal Skills for General Visual Agents"
+  order: 1
+  first_author: true
+  author_role: "Co-first Author"
   authors: "**Kangning Zhang**\\*, Shuai Shao\\*, Qingyao Li, Jianghao Lin, Lingyue Fu, Shijian Wang, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
   preview: "mmskills.png"
   image_class: "wide"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:YOwf2qJgpHMC"
+  citations: 4
   links:
     - label: "Project Page"
       url: "https://deepexperience.github.io/MMSkills/"
@@ -11,69 +41,107 @@
       url: "https://arxiv.org/abs/2605.13527"
     - label: "Code"
       url: "https://github.com/zkangning/MMSkills_for_Visual_Agents"
+      repo: "zkangning/MMSkills_for_Visual_Agents"
+      stars: 32
     - label: "Dataset"
       url: "https://huggingface.co/datasets/zkangning/towards_mmskills"
   description: "MMSkills represents reusable multimodal procedural knowledge for visual agents with textual procedures, runtime state cards, and multi-view keyframes, then uses branch loading to consult relevant visual evidence during decision making."
 
 - title: "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation"
+  order: 3
+  first_author: true
+  author_role: "First Author"
   authors: "**Kangning Zhang**, Yixing Li, Shuai Shao, Qingyao Li, Zhengxi Lu, Zhiyuan Yao, Jianghao Lin, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
   preview: "vad.png"
   image_class: "wide"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:4DMP91E08xMC"
+  citations: 1
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2607.28590"
     - label: "Code"
       url: "https://github.com/DeepExperience/VAD_Multimodal_OPD"
+      repo: "DeepExperience/VAD_Multimodal_OPD"
+      stars: 43
   description: "VAD attributes teacher corrections to controlled visual evidence and reconstructs student-anchored supervision targets for multimodal on-policy distillation, outperforming direct privileged-view distillation across six fine-grained visual benchmarks."
 
 - title: "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories"
+  order: 2
+  first_author: true
+  author_role: "Co-first Author"
   authors: "Shuai Shao\\*, **Kangning Zhang**\\*, Qingyao Li, Shijian Wang, Hao Wang, Wenxiang Jiao, Yuan Lu, Yi Guo, Weiwen Liu, and Weinan Zhang"
   venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
   preview: "harness-r1.png"
   image_class: "wide"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:9ZlFYXVOiuMC"
+  citations: 1
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2608.02276"
     - label: "Code"
       url: "https://github.com/DeepExperience/Harness-R1"
+      repo: "DeepExperience/Harness-R1"
+      stars: 73
   description: "Harness-R1 trains a dedicated harness engineer to turn agent failure trajectories into validated executable runtime patches, improving target-agent success both before and after direct fine-tuning."
 
 - title: "LoopTool: Closing the Data-Training Loop for Robust LLM Tool Calls"
+  order: 4
+  first_author: true
+  author_role: "First Author"
   authors: "**Kangning Zhang**, Wenxiang Jiao, Kounianhua Du, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
+  badge: "ACL 2026"
   note: "Main Conference"
   preview: "looptool.png"
   image_class: "wide"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:8k81kl-MbHgC"
+  citations: 12
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2511.09148"
     - label: "Code"
       url: "https://github.com/Rednote-DeepExperience/LoopTool"
+      repo: "Rednote-DeepExperience/LoopTool"
+      stars: 73
   description: "LoopTool closes the data-training loop for LLM tool use by evolving training data around a model's current weaknesses, improving robustness for multi-step tool-calling tasks."
 
 - title: "AlignRec: Aligning and Training in Multimodal Recommendations"
+  order: 6
+  first_author: true
+  author_role: "Co-first Author"
   authors: "Yifan Liu\\*, **Kangning Zhang**\\*, Xiangyuan Ren, Yanhua Huang, Jiarui Jin, Yingjie Qin, Ruilong Su, Ruiwen Xu, Yong Yu, and Weinan Zhang"
   venue: "ACM International Conference on Information and Knowledge Management (CIKM), 2024"
+  badge: "CIKM 2024"
   preview: "alignrec.png"
   image_class: "standard"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:_FxGoFyzp5QC"
+  citations: 85
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2403.12384"
     - label: "Code"
       url: "https://github.com/sjtulyf123/AlignRec_CIKM24"
+      repo: "sjtulyf123/AlignRec_CIKM24"
+      stars: 50
   description: "AlignRec studies representation misalignment in multimodal recommendation and introduces alignment-aware training for stronger multimodal user-item features."
 
 - title: "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations"
+  order: 7
   authors: "Yanjie Ze\\*, Gu Zhang\\*, **Kangning Zhang**, Chenyuan Hu, Muhan Wang, and Huazhe Xu"
   venue: "Robotics: Science and Systems (RSS), 2024"
+  badge: "RSS 2024"
   preview: "dp3.png"
   image_class: "wide"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:Tyk-4Ss8FVUC"
+  citations: 941
   links:
     - label: "Project Page"
       url: "https://3d-diffusion-policy.github.io/"
@@ -81,119 +149,173 @@
       url: "https://arxiv.org/abs/2403.03954"
     - label: "Code"
       url: "https://github.com/YanjieZe/3D-Diffusion-Policy"
+      repo: "YanjieZe/3D-Diffusion-Policy"
+      stars: 1429
     - label: "Video"
       url: "https://zkangning.github.io/assets/video/dp3.mp4"
   description: "3D Diffusion Policy introduces compact point-cloud representations into diffusion-policy imitation learning for stronger robot manipulation generalization."
 
 - title: "Learning ID-free Item Representation with Token Crossing for Multimodal Recommendation"
+  order: 8
+  first_author: true
+  author_role: "First Author"
   authors: "**Kangning Zhang**, Jiarui Jin, Yingjie Qin, Ruilong Su, Jianghao Lin, Yong Yu, and Weinan Zhang"
   venue: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), 2026"
+  badge: "ECML-PKDD 2026"
   note: "CCF-B"
   preview: "motor.png"
   image_class: "standard"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:LkGwnXOMwfcC"
+  citations: 0
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2410.19276"
   description: "MOTOR replaces item ID embeddings with learnable multimodal tokens and a token-crossing network, reducing reliance on sparse ID features."
 
 - title: "DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation"
+  order: 9
+  first_author: true
+  author_role: "First Author"
   authors: "**Kangning Zhang**, Yingjie Qin, Weinan Zhang, Yong Yu, and Jianghao Lin"
   venue: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), 2026"
+  badge: "ECML-PKDD 2026"
   note: "CCF-B"
   preview: "diffcold.png"
   image_class: "wide"
   featured: true
+  scholar_id: "KXOvopEAAAAJ:M3ejUd6NZC8C"
+  citations: 1
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2606.12245"
   description: "DiffCold tackles cold-start recommendation with diffusion-based representation simulation, retrieval-enhanced aggregation, and representation alignment for cold items."
 
 - title: "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution"
+  order: 10
   authors: "Zhiyuan Yao, Yuxin Chen, Zhengxi Lu, Zishan Xu, Yueqing Sun, Yifu Guo, Yuquan Lu, Zhengzhou Cai, **Kangning Zhang**, Zhuowen Han, Zi-Han Wang, Ziang Ye, Qi Gu, Xunliang Cai, Weiwen Liu, and Yongliang Shen"
   venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
   preview: "skillrise.png"
   image_class: "wide"
+  scholar_id: "KXOvopEAAAAJ:mVmsd5A6BfQC"
+  citations: 0
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2607.26784"
   description: "SkillRise unifies cross-task solving and skill-document curation within reinforcement learning, enabling efficient skill evolution and transfer across progressively related tasks."
 
 - title: "SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution Cycle"
+  order: 11
   authors: "Hao Guan, Lingyue Fu, Shao Zhang, Yaoming Zhu, **Kangning Zhang**, Lin Qiu, Xunliang Cai, Xuezhi Cao, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
   preview: "swe-cycle.png"
   image_class: "wide"
+  scholar_id: "KXOvopEAAAAJ:_kc_bZDykSQC"
+  citations: 2
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2605.13139"
   description: "SWE-Cycle evaluates code agents across environment reconstruction, implementation, test generation, and a full-cycle issue-resolution task."
 
 - title: "MuSEAgent: A Multimodal Reasoning Agent with Stateful Experiences"
+  order: 12
   authors: "Shijian Wang, Jiarui Jin, Runhao Fu, Zexuan Yan, Xingjian Wang, Mengkang Hu, Eric Wang, Xiaoxi Li, **Kangning Zhang**, Li Yao, Wenxiang Jiao, Xuelian Cheng, Yuan Lu, and Zongyuan Ge"
   venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
   preview: "museagent.png"
   image_class: "standard"
+  scholar_id: "KXOvopEAAAAJ:ULOm3_A8WrAC"
+  citations: 2
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2603.27813"
   description: "MuSEAgent distills interaction histories into stateful decision experiences and retrieves them through complementary search strategies for multimodal reasoning."
 
 - title: "Fints: Efficient Inference-Time Personalization for LLMs with Fine-Grained Instance-Tailored Steering"
+  order: 13
   authors: "Kounianhua Du, Jianxing Liu, **Kangning Zhang**, Wenxiang Jiao, Yuan Lu, Jiarui Jin, Weiwen Liu, Yong Yu, and Weinan Zhang"
   venue: "arXiv preprint, 2025"
+  badge: "arXiv 2025"
   preview: "fints.png"
   image_class: "standard"
+  scholar_id: "KXOvopEAAAAJ:0EnyYjriUFMC"
+  citations: 1
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2510.27206"
     - label: "Code"
       url: "https://github.com/KounianhuaDu/Fints"
+      repo: "KounianhuaDu/Fints"
+      stars: 7
   description: "Fints performs inference-time personalization by selecting fine-grained, instance-tailored steering signals for dynamic user preferences and sparse personalization data."
 
 - title: "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models"
+  order: 14
   authors: "Congmin Zheng, Jiachen Zhu, Zhuoying Ou, Yuxiang Chen, **Kangning Zhang**, Rong Shan, Zeyu Zheng, Mengyue Yang, Jianghao Lin, Yong Yu, and Weinan Zhang"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
+  badge: "ACL 2026"
   note: "Main Conference"
   preview: "process-reward-models.png"
   image_class: "standard"
+  scholar_id: "KXOvopEAAAAJ:5nxA0vEk-isC"
+  citations: 17
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2510.08049"
   description: "This survey reviews process reward models across process data construction, reward modeling, test-time scaling, and reinforcement learning for large language models."
 
 - title: "An Automatic Graph Construction Framework based on Large Language Models for Recommendation"
+  order: 15
   authors: "Rong Shan, Jianghao Lin, Chenxu Zhu, Bo Chen, Menghui Zhu, **Kangning Zhang**, Jieming Zhu, Ruiming Tang, Yong Yu, and Weinan Zhang"
   venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2025"
+  badge: "KDD 2025"
   preview: "autograph.png"
   image_class: "standard"
+  scholar_id: "KXOvopEAAAAJ:roLk4NBRz8UC"
+  citations: 19
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2412.18241"
     - label: "Code"
       url: "https://github.com/LaVieEnRose365/AutoGraph"
+      repo: "LaVieEnRose365/AutoGraph"
+      stars: 29
   description: "This framework uses large language models to automate graph construction for recommendation, improving the graph learning substrate used by GNN-based recommenders."
 
 - title: "ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction"
+  order: 16
   authors: "Jianghao Lin, Bo Chen, Hangyu Wang, Yunjia Xi, Yanru Qu, Xinyi Dai, **Kangning Zhang**, Ruiming Tang, Yong Yu, and Weinan Zhang"
   venue: "The ACM Web Conference (WWW), 2024"
+  badge: "WWW 2024"
   preview: "clickprompt.png"
   image_class: "wide"
+  scholar_id: "KXOvopEAAAAJ:YsMSGLbcyi4C"
+  citations: 76
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2310.09234"
     - label: "Code"
       url: "https://github.com/CHIANGEL/ClickPrompt/"
+      repo: "CHIANGEL/ClickPrompt"
+      stars: 27
   description: "ClickPrompt adapts language models to CTR prediction by using CTR models as prompt generators, combining semantic and collaborative signals."
 
 - title: "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models"
+  order: 17
   authors: "Lingyue Fu, Huacan Chai, Shuang Luo, Kounianhua Du, Weiming Zhang, Longteng Fan, Jiayi Lei, Renting Rui, Jianghao Lin, Yuchen Fang, Yifan Liu, Jingkuan Wang, Siyuan Qi, **Kangning Zhang**, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2023"
+  badge: "arXiv 2023"
   preview: "codeapex.png"
   image_class: "standard"
+  scholar_id: "KXOvopEAAAAJ:2osOgNQ5qMEC"
+  citations: 14
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2309.01940"
     - label: "Code"
       url: "https://github.com/APEXLAB/CodeApex"
+      repo: "APEXLAB/CodeApex"
+      stars: 50
   description: "CodeApex is a bilingual benchmark for evaluating large language models on programming comprehension, code generation, and code correction."

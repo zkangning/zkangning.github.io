@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info:
 
-selected_papers: true
+publications: true
 social: false
 
 announcements:
@@ -32,13 +32,38 @@ I received my bachelor's degree in Computer Science from the IEEE Pilot Class at
 **I am always open to potential collaborations. If you are interested in working together, please feel free to reach out by email.**
 
 <div class="profile-links">
-  <a href="mailto:zhangkangning@sjtu.edu.cn">Email</a>
-  <a href="https://scholar.google.com/citations?user=KXOvopEAAAAJ&hl=en" target="_blank" rel="external nofollow noopener">Google Scholar</a>
-  <a href="https://github.com/zkangning" target="_blank" rel="external nofollow noopener">GitHub</a>
-  <a href="https://x.com/Kangning15257" target="_blank" rel="external nofollow noopener">Twitter</a>
+  <a href="mailto:zhangkangning@sjtu.edu.cn"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Email</a>
+  <a href="https://scholar.google.com/citations?user=KXOvopEAAAAJ&hl=en" target="_blank" rel="external nofollow noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a>
+  <a href="https://github.com/zkangning" target="_blank" rel="external nofollow noopener"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+  <a href="https://x.com/Kangning15257" target="_blank" rel="external nofollow noopener"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i>Twitter</a>
 </div>
 
-## Internships
+<!-- about-intro-end -->
+
+<h2 class="section-heading"><span class="section-heading-icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></span>Education</h2>
+
+<div class="education-list">
+  <article class="education-item">
+    <div class="education-item-icon" aria-hidden="true"><i class="fa-solid fa-user-graduate"></i></div>
+    <div class="education-item-body">
+      <h3>Shanghai Jiao Tong University</h3>
+      <p class="education-degree">Ph.D. in Computer Science</p>
+      <p>School of Computer Science</p>
+    </div>
+    <span class="education-time">2024–Present</span>
+  </article>
+  <article class="education-item">
+    <div class="education-item-icon" aria-hidden="true"><i class="fa-solid fa-laptop-code"></i></div>
+    <div class="education-item-body">
+      <h3>Shanghai Jiao Tong University</h3>
+      <p class="education-degree">B.Eng. in Computer Science</p>
+      <p>IEEE Pilot Class</p>
+    </div>
+    <span class="education-time">2020–2024</span>
+  </article>
+</div>
+
+<h2 class="section-heading"><span class="section-heading-icon" aria-hidden="true"><i class="fa-solid fa-building" aria-hidden="true"></i></span>Internships</h2>
 
 <div class="internship-card-list">
   <article class="internship-card">

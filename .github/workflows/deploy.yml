@@ -1,6 +1,8 @@
 name: Deploy site
 
 on:
+  schedule:
+    - cron: "23 3 * * 1"
   push:
     branches:
       - master
@@ -76,6 +78,11 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+      - name: Refresh Google Scholar citations 🎓
+        continue-on-error: true
+        env:
+          GOOGLE_SCHOLAR_ID: KXOvopEAAAAJ
+        run: bundle exec ruby _scripts/update-google-scholar.rb
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
