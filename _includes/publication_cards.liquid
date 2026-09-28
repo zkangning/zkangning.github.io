@@ -75,6 +75,7 @@
           {% if pub.links %}
             {% for link in pub.links %}
               {% assign link_label = link.label | downcase %}
+              {% assign link_type = link.type | default: link_label %}
               <a
                 class="publication-action{% if link_label == 'code' %} publication-action-code{% endif %}"
                 href="{{ link.url }}"
@@ -82,7 +83,7 @@
                 rel="external nofollow noopener"
                 {% if link.repo %}data-github-repo="{{ link.repo }}"{% endif %}
               >
-                {% case link_label %}
+                {% case link_type %}
                   {% when 'paper' %}
                     <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
                   {% when 'code' %}
@@ -95,6 +96,10 @@
                     <i class="fa-regular fa-circle-play" aria-hidden="true"></i>
                   {% when 'doi' %}
                     <i class="fa-solid fa-link" aria-hidden="true"></i>
+                  {% when 'media' %}
+                    <i class="fa-regular fa-newspaper" aria-hidden="true"></i>
+                  {% when 'model' %}
+                    <i class="fa-solid fa-cube" aria-hidden="true"></i>
                   {% else %}
                     <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                 {% endcase %}

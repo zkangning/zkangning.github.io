@@ -27,8 +27,9 @@
   first_author: true
   author_role: "Co-first Author"
   authors: "**Kangning Zhang**\\*, Shuai Shao\\*, Qingyao Li, Jianghao Lin, Lingyue Fu, Shijian Wang, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
-  venue: "arXiv preprint, 2026"
-  badge: "arXiv 2026"
+  venue: "Conference on Neural Information Processing Systems (NeurIPS), 2026"
+  badge: "NeurIPS 2026"
+  note: "Accepted Paper"
   preview: "mmskills.png"
   image_class: "wide"
   featured: true
@@ -109,10 +110,33 @@
       url: "https://github.com/Rednote-DeepExperience/LoopTool"
       repo: "Rednote-DeepExperience/LoopTool"
       stars: 73
+    - label: "机器之心"
+      type: "media"
+      url: "https://www.jiqizhixin.com/articles/2025-11-19-9"
   description: "LoopTool closes the data-training loop for LLM tool use by evolving training data around a model's current weaknesses, improving robustness for multi-step tool-calling tasks."
 
-- title: "AlignRec: Aligning and Training in Multimodal Recommendations"
+- title: "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents"
   order: 6
+  authors: "Qingyao Li, Wenxiang Jiao, Shuai Shao, **Kangning Zhang**, Yuan Lu, Yi Guo, Weiwen Liu, Weinan Zhang, and Yong Yu"
+  venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
+  preview: "skillgate.png"
+  image_class: "wide"
+  scholar_id: "KXOvopEAAAAJ:dhFuZR0502QC"
+  citations: 0
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2608.18852"
+    - label: "Code"
+      url: "https://github.com/DeepExperience/SkillGate"
+      repo: "DeepExperience/SkillGate"
+      stars: 4
+    - label: "Model"
+      url: "https://huggingface.co/simonlqy/SkillGate-9B"
+  description: "SkillGate trains skill selection in long-horizon agents by assigning separate credit to skill-naming and execution tokens, addressing selector credit starvation and improving a 9B policy's trial success from 40.8% to 53.2% across five agentic benchmarks."
+
+- title: "AlignRec: Aligning and Training in Multimodal Recommendations"
+  order: 7
   first_author: true
   author_role: "Co-first Author"
   authors: "Yifan Liu\\*, **Kangning Zhang**\\*, Xiangyuan Ren, Yanhua Huang, Jiarui Jin, Yingjie Qin, Ruilong Su, Ruiwen Xu, Yong Yu, and Weinan Zhang"
@@ -133,7 +157,7 @@
   description: "AlignRec studies representation misalignment in multimodal recommendation and introduces alignment-aware training for stronger multimodal user-item features."
 
 - title: "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations"
-  order: 7
+  order: 8
   authors: "Yanjie Ze\\*, Gu Zhang\\*, **Kangning Zhang**, Chenyuan Hu, Muhan Wang, and Huazhe Xu"
   venue: "Robotics: Science and Systems (RSS), 2024"
   badge: "RSS 2024"
@@ -156,7 +180,7 @@
   description: "3D Diffusion Policy introduces compact point-cloud representations into diffusion-policy imitation learning for stronger robot manipulation generalization."
 
 - title: "Learning ID-free Item Representation with Token Crossing for Multimodal Recommendation"
-  order: 8
+  order: 9
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Jiarui Jin, Yingjie Qin, Ruilong Su, Jianghao Lin, Yong Yu, and Weinan Zhang"
@@ -174,7 +198,7 @@
   description: "MOTOR replaces item ID embeddings with learnable multimodal tokens and a token-crossing network, reducing reliance on sparse ID features."
 
 - title: "DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation"
-  order: 9
+  order: 10
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Yingjie Qin, Weinan Zhang, Yong Yu, and Jianghao Lin"
@@ -192,7 +216,7 @@
   description: "DiffCold tackles cold-start recommendation with diffusion-based representation simulation, retrieval-enhanced aggregation, and representation alignment for cold items."
 
 - title: "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution"
-  order: 10
+  order: 11
   authors: "Zhiyuan Yao, Yuxin Chen, Zhengxi Lu, Zishan Xu, Yueqing Sun, Yifu Guo, Yuquan Lu, Zhengzhou Cai, **Kangning Zhang**, Zhuowen Han, Zi-Han Wang, Ziang Ye, Qi Gu, Xunliang Cai, Weiwen Liu, and Yongliang Shen"
   venue: "arXiv preprint, 2026"
   badge: "arXiv 2026"
@@ -206,7 +230,7 @@
   description: "SkillRise unifies cross-task solving and skill-document curation within reinforcement learning, enabling efficient skill evolution and transfer across progressively related tasks."
 
 - title: "SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution Cycle"
-  order: 11
+  order: 12
   authors: "Hao Guan, Lingyue Fu, Shao Zhang, Yaoming Zhu, **Kangning Zhang**, Lin Qiu, Xunliang Cai, Xuezhi Cao, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
   badge: "arXiv 2026"
@@ -220,7 +244,7 @@
   description: "SWE-Cycle evaluates code agents across environment reconstruction, implementation, test generation, and a full-cycle issue-resolution task."
 
 - title: "MuSEAgent: A Multimodal Reasoning Agent with Stateful Experiences"
-  order: 12
+  order: 13
   authors: "Shijian Wang, Jiarui Jin, Runhao Fu, Zexuan Yan, Xingjian Wang, Mengkang Hu, Eric Wang, Xiaoxi Li, **Kangning Zhang**, Li Yao, Wenxiang Jiao, Xuelian Cheng, Yuan Lu, and Zongyuan Ge"
   venue: "arXiv preprint, 2026"
   badge: "arXiv 2026"
@@ -234,7 +258,7 @@
   description: "MuSEAgent distills interaction histories into stateful decision experiences and retrieves them through complementary search strategies for multimodal reasoning."
 
 - title: "Fints: Efficient Inference-Time Personalization for LLMs with Fine-Grained Instance-Tailored Steering"
-  order: 13
+  order: 14
   authors: "Kounianhua Du, Jianxing Liu, **Kangning Zhang**, Wenxiang Jiao, Yuan Lu, Jiarui Jin, Weiwen Liu, Yong Yu, and Weinan Zhang"
   venue: "arXiv preprint, 2025"
   badge: "arXiv 2025"
@@ -252,7 +276,7 @@
   description: "Fints performs inference-time personalization by selecting fine-grained, instance-tailored steering signals for dynamic user preferences and sparse personalization data."
 
 - title: "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models"
-  order: 14
+  order: 15
   authors: "Congmin Zheng, Jiachen Zhu, Zhuoying Ou, Yuxiang Chen, **Kangning Zhang**, Rong Shan, Zeyu Zheng, Mengyue Yang, Jianghao Lin, Yong Yu, and Weinan Zhang"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
   badge: "ACL 2026"
@@ -267,7 +291,7 @@
   description: "This survey reviews process reward models across process data construction, reward modeling, test-time scaling, and reinforcement learning for large language models."
 
 - title: "An Automatic Graph Construction Framework based on Large Language Models for Recommendation"
-  order: 15
+  order: 16
   authors: "Rong Shan, Jianghao Lin, Chenxu Zhu, Bo Chen, Menghui Zhu, **Kangning Zhang**, Jieming Zhu, Ruiming Tang, Yong Yu, and Weinan Zhang"
   venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2025"
   badge: "KDD 2025"
@@ -285,7 +309,7 @@
   description: "This framework uses large language models to automate graph construction for recommendation, improving the graph learning substrate used by GNN-based recommenders."
 
 - title: "ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction"
-  order: 16
+  order: 17
   authors: "Jianghao Lin, Bo Chen, Hangyu Wang, Yunjia Xi, Yanru Qu, Xinyi Dai, **Kangning Zhang**, Ruiming Tang, Yong Yu, and Weinan Zhang"
   venue: "The ACM Web Conference (WWW), 2024"
   badge: "WWW 2024"
@@ -303,7 +327,7 @@
   description: "ClickPrompt adapts language models to CTR prediction by using CTR models as prompt generators, combining semantic and collaborative signals."
 
 - title: "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models"
-  order: 17
+  order: 18
   authors: "Lingyue Fu, Huacan Chai, Shuang Luo, Kounianhua Du, Weiming Zhang, Longteng Fan, Jiayi Lei, Renting Rui, Jianghao Lin, Yuchen Fang, Yifan Liu, Jingkuan Wang, Siyuan Qi, **Kangning Zhang**, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2023"
   badge: "arXiv 2023"

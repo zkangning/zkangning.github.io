@@ -1,3 +1,19 @@
+- date: 2026-09-25
+  type: acceptance
+  text: "[MMSKILLS](https://arxiv.org/abs/2605.13527) was accepted by **NeurIPS 2026** on September 25!"
+  links:
+    - label: "Project"
+      url: "https://deepexperience.github.io/MMSkills/"
+    - label: "Code"
+      url: "https://github.com/zkangning/MMSkills_for_Visual_Agents"
+
+- date: 2026-08-19 20:24:03 +0800
+  type: release
+  text: "[SKILLGATE](https://arxiv.org/abs/2608.18852) is available on arXiv for training in-policy skill selection in long-horizon agents."
+  links:
+    - label: "Code"
+      url: "https://github.com/DeepExperience/SkillGate"
+
 - date: 2026-08-15 19:55:30 +0800
   type: acceptance
   text: "**HCGREC** is accepted by **CIKM 2026**, recovering useful learning signals from unreachable rewards in generative recommendation."

@@ -1,8 +1,15 @@
 ---
 profile_id: KXOvopEAAAAJ
-updated_at: '2026-08-19T15:52:03Z'
-total_citations: 1182
+updated_at: '2026-09-28T15:26:40Z'
+total_citations: 1317
 publications:
+- id: KXOvopEAAAAJ:qxL8FJ1GzNcC
+  title: 'MOTOR: Learning ID-Free Item Representation with Token Crossing for Embedding-Based
+    Multimodal Recommendation'
+  citations: 0
+- id: KXOvopEAAAAJ:dhFuZR0502QC
+  title: 'SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents'
+  citations: 0
 - id: KXOvopEAAAAJ:QIV2ME_5wuYC
   title: 'Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning
     for Generative Recommendation'
@@ -10,28 +17,28 @@ publications:
 - id: KXOvopEAAAAJ:9ZlFYXVOiuMC
   title: 'Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure
     Trajectories'
-  citations: 1
+  citations: 5
 - id: KXOvopEAAAAJ:4DMP91E08xMC
   title: 'VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal
     On-Policy Distillation'
   citations: 1
 - id: KXOvopEAAAAJ:mVmsd5A6BfQC
-  title: 'SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution'
-  citations: 0
+  title: 'Skillrise: Agentic reinforcement learning for cross-task skill evolution'
+  citations: 2
 - id: KXOvopEAAAAJ:aqlVkmm33-oC
   title: 'A Comprehensive Survey of Process Reward Models: Data Generation, Model
     Construction, and Usage'
-  citations: 0
+  citations: 1
 - id: KXOvopEAAAAJ:M3ejUd6NZC8C
   title: 'DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation'
   citations: 1
 - id: KXOvopEAAAAJ:_kc_bZDykSQC
   title: 'SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution
     Cycle'
-  citations: 2
+  citations: 4
 - id: KXOvopEAAAAJ:YOwf2qJgpHMC
   title: 'MMskills: Towards multimodal skills for general visual agents'
-  citations: 4
+  citations: 8
 - id: KXOvopEAAAAJ:ULOm3_A8WrAC
   title: 'Museagent: A multimodal reasoning agent with stateful experiences'
   citations: 2
@@ -45,36 +52,36 @@ publications:
 - id: KXOvopEAAAAJ:5nxA0vEk-isC
   title: 'A survey of process reward models: From outcome signals to process supervisions
     for large language models'
-  citations: 17
+  citations: 20
 - id: KXOvopEAAAAJ:roLk4NBRz8UC
   title: An automatic graph construction framework based on large language models
     for recommendation
-  citations: 19
-- id: KXOvopEAAAAJ:qxL8FJ1GzNcC
-  title: 'MOTOR: Learning ID-free Item Representation with Token Crossing for Embedding-based
-    Multimodal Recommendation'
-  citations: 0
+  citations: 21
+- id: KXOvopEAAAAJ:7PzlFSSx8tAC
+  title: 'Kounianhua Du, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu. 2025b. Looptool:
+    Closing the data-training loop for robust llm tool calls'
+  citations: 7
 - id: KXOvopEAAAAJ:LkGwnXOMwfcC
   title: Learning ID-free Item Representation with Token Crossing for Multimodal Recommendation
-  citations: 0
+  citations: 1
 - id: KXOvopEAAAAJ:_FxGoFyzp5QC
   title: 'Alignrec: Aligning and training in multimodal recommendations'
-  citations: 85
+  citations: 97
 - id: KXOvopEAAAAJ:Se3iqnhoufwC
   title: A dual-aligned model for multimodal recommendation
   citations: 2
 - id: KXOvopEAAAAJ:YsMSGLbcyi4C
   title: 'ClickPrompt: CTR models are strong prompt generators for adapting language
     models to CTR prediction'
-  citations: 76
+  citations: 80
 - id: KXOvopEAAAAJ:ufrVoPGSRksC
   title: 'DREAM: A Dual Representation Learning Framework for Multimodal Recommendation'
   citations: 4
 - id: KXOvopEAAAAJ:Tyk-4Ss8FVUC
   title: '3d diffusion policy: Generalizable visuomotor policy learning via simple
     3d representations'
-  citations: 941
+  citations: 1033
 - id: KXOvopEAAAAJ:2osOgNQ5qMEC
   title: 'Codeapex: A bilingual programming evaluation benchmark for large language
     models'
-  citations: 14
+  citations: 15
