@@ -1,0 +1,29 @@
+- id: post-training
+  title: LLM Post-Training
+  nav_title: LLM Post-Training
+  focus: Learning transferable policy capabilities
+  description: Turning execution experience, teacher feedback, and sparse rewards into better policies through capability distillation, supervision attribution, and evolving training data.
+
+- id: agent-harness
+  title: Agent Harness & Self-Evolution
+  nav_title: Harness & Self-Evolution
+  focus: Reusing experience and improving execution
+  description: Building reusable multimodal skills and executable harnesses that help agents learn from failures, select useful experience, and improve across tasks.
+
+- id: benchmarks
+  title: Long-Horizon Benchmarks & Evaluation
+  nav_title: Benchmarks & Evaluation
+  focus: Real tasks, verifiable outcomes
+  description: Evaluating agents through physical reconstruction, formalized research problems, and the complete software engineering cycle, alongside earlier work on programming evaluation.
+
+- id: robotics
+  title: Robotics Learning
+  nav_title: Robotics Learning
+  focus: Generalizable visuomotor policies
+  description: Learning robot manipulation policies with compact 3D representations and diffusion models for sample-efficient, generalizable behavior.
+
+- id: recommendation
+  title: Recommender Systems
+  nav_title: Recommender Systems
+  focus: Connecting content, behavior, and preferences
+  description: Aligning multimodal content with collaborative signals, learning ID-free and cold-start item representations, and adapting language models to recommendation and personalization.

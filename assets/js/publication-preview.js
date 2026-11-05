@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const lightboxTitle = lightbox.querySelector(".publication-lightbox-title");
   const closeButton = lightbox.querySelector(".publication-lightbox-close");
   let lastTrigger = null;
+  let openFrame = null;
 
   function imageFromTrigger(trigger) {
     if (trigger.classList.contains("publication-card-preview")) {
@@ -46,13 +47,18 @@ document.addEventListener("DOMContentLoaded", function () {
     lightbox.hidden = false;
     document.body.classList.add("publication-lightbox-lock");
 
-    window.requestAnimationFrame(function () {
+    openFrame = window.requestAnimationFrame(function () {
+      openFrame = null;
       lightbox.classList.add("open");
       closeButton.focus({ preventScroll: true });
     });
   }
 
   function closePreview() {
+    if (openFrame !== null) {
+      window.cancelAnimationFrame(openFrame);
+      openFrame = null;
+    }
     lightbox.classList.remove("open");
     document.body.classList.remove("publication-lightbox-lock");
 

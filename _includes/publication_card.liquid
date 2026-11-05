@@ -1,0 +1,107 @@
+{% assign pub = include.pub %}
+{% assign paper_link = pub.links | where: "label", "Paper" | first %}
+{% assign scholar_entry = site.data.google_scholar.publications | where: 'id', pub.scholar_id | first %}
+{% assign citation_count = pub.citations %}
+{% if scholar_entry %}
+  {% assign citation_count = scholar_entry.citations %}
+{% endif %}
+<article class="publication-card{% if pub.first_author %} first-author{% endif %}">
+  {% if pub.preview %}
+  <div class="publication-card-media {{ pub.image_class | default: 'standard' }}">
+    {% assign preview_path = pub.preview | prepend: '/assets/img/publication_preview/' %}
+    <img
+      class="publication-card-preview"
+      src="{{ preview_path | relative_url }}"
+      alt="{{ pub.title | escape }} preview"
+      loading="lazy"
+      decoding="async"
+      data-publication-preview
+      data-preview-src="{{ preview_path | relative_url }}"
+      data-preview-title="{{ pub.title | escape }}"
+    >
+    <button
+      class="publication-preview-zoom"
+      type="button"
+      aria-label="Open preview for {{ pub.title | escape }}"
+      title="Open full-size preview"
+    >
+      <i class="fa-solid fa-expand" aria-hidden="true"></i>
+    </button>
+  </div>
+  {% endif %}
+  <div class="publication-card-body">
+    <div class="publication-card-meta">
+      <span class="publication-venue-label">{{ pub.badge }}</span>
+      {% if pub.first_author %}<span class="publication-author-label">{{ pub.author_role | default: "First / Co-first Author" }}</span>{% endif %}
+      {% if pub.note %}<span>{{ pub.note }}</span>{% endif %}
+    </div>
+    <div class="publication-card-heading">
+      <{{ include.heading | default: 'h3' }} class="publication-card-title">
+        {% if paper_link %}<a href="{{ paper_link.url }}" target="_blank" rel="external nofollow noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+      </{{ include.heading | default: 'h3' }}>
+    </div>
+    <p class="publication-card-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="publication-card-venue">
+      <i class="fa-solid fa-location-dot" aria-hidden="true"></i>{{ pub.venue }}
+    </p>
+    <div class="publication-card-summary">
+      <p>{{ pub.description }}</p>
+    </div>
+    <div class="publication-card-links" aria-label="Links and impact for {{ pub.title | escape }}">
+      {% if pub.links %}
+        {% for link in pub.links %}
+          {% assign link_label = link.label | downcase %}
+          {% assign link_type = link.type | default: link_label %}
+          <a
+            class="publication-action{% if link_label == 'code' %} publication-action-code{% endif %}"
+            href="{{ link.url }}"
+            target="_blank"
+            rel="external nofollow noopener"
+            {% if link.repo %}data-github-repo="{{ link.repo }}"{% endif %}
+          >
+            {% case link_type %}
+              {% when 'paper' %}
+                <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+              {% when 'code' %}
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              {% when 'project page' %}
+                <i class="fa-solid fa-globe" aria-hidden="true"></i>
+              {% when 'dataset' %}
+                <i class="fa-solid fa-database" aria-hidden="true"></i>
+              {% when 'video' %}
+                <i class="fa-regular fa-circle-play" aria-hidden="true"></i>
+              {% when 'doi' %}
+                <i class="fa-solid fa-link" aria-hidden="true"></i>
+              {% when 'media' %}
+                <i class="fa-regular fa-newspaper" aria-hidden="true"></i>
+              {% when 'model' %}
+                <i class="fa-solid fa-cube" aria-hidden="true"></i>
+              {% else %}
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            {% endcase %}
+            <span>{{ link.label }}</span>
+            {% if link.repo and link.stars != nil %}
+              <span class="publication-action-metric" title="GitHub stars">
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <span data-github-stars>{{ link.stars }}</span>
+              </span>
+            {% endif %}
+          </a>
+        {% endfor %}
+      {% endif %}
+      {% if pub.scholar_id %}
+        <a
+          class="publication-action publication-action-scholar"
+          href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ pub.scholar_id }}"
+          target="_blank"
+          rel="external nofollow noopener"
+          aria-label="View {{ citation_count }} citations on Google Scholar"
+        >
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          <span>Scholar</span>
+          <span class="publication-action-metric"><span>{{ citation_count }}</span> citations</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</article>

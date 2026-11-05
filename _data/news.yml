@@ -1,3 +1,10 @@
+- date: 2026-11-03
+  type: release
+  text: "[HARNESS-S](https://arxiv.org/abs/2611.04277) is available on arXiv: learning from sibling harnesses for generalizable agent training."
+  links:
+    - label: "Code"
+      url: "https://github.com/DeepExperience/Harness-S"
+
 - date: 2026-09-25
   type: acceptance
   text: "[MMSKILLS](https://arxiv.org/abs/2605.13527) was accepted by **NeurIPS 2026** on September 25!"

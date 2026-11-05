@@ -1,5 +1,56 @@
+- title: "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training"
+  order: 0
+  area: post-training
+  first_author: true
+  author_role: "First Author"
+  authors: "**Kangning Zhang**, Wenxiang Jiao, Bowen Fang, Shuai Shao, Jiachen Zhu, Rong Shan, Shijian Wang, Hao Wang, Yuan Lu, Weiwen Liu, and Weinan Zhang"
+  venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
+  preview: "harness-s.png"
+  image_class: "wide"
+  featured: true
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2611.04277"
+    - label: "Code"
+      url: "https://github.com/DeepExperience/Harness-S"
+      repo: "DeepExperience/Harness-S"
+      stars: 1
+  description: "Harness-S rescues failed rollouts with complementary sibling harnesses and transfers their successful behaviors into a single policy through reinforcement learning. The gains persist when the policy returns to its original harness across AppWorld, SWE-Gym, and DBBench."
+
+- title: "PhysCodeGym: Benchmarking Coding Agents for Physically Verifiable 4D Reconstruction"
+  order: 1
+  area: benchmarks
+  authors: "Shuai Shao\\*, Jinchen He\\*, Cunxin Fan\\*, Zihan Guo\\*, Shijian Wang, Qihan Ren, **Kangning Zhang**, Zunnan Xu, Haoyuan Li, Hao Wang, Jianghao Lin, Weiwen Liu, and Weinan Zhang"
+  venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
+  preview: "physcodegym.webp"
+  image_class: "wide"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2610.17288"
+    - label: "Code"
+      url: "https://github.com/ShaoShuai0605/PhysCodeGym"
+  description: "PhysCodeGym evaluates coding agents on 156 video-to-Blender reconstruction tasks. Visual, motion, and physical checks—including counterfactual interventions—test whether agents build reliable physical models beyond matching appearances."
+
+- title: "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems"
+  order: 2
+  area: benchmarks
+  authors: "Zeyu Zheng, Yiyang Liu, Yuyang Zhao, Congmin Zheng, Jiachen Zhu, Jianian Chen, **Kangning Zhang**, Kayue Daniel Wong, Lingyu Yang, Rong Shan, Shihao Chen, Thomas Zhu, Wentao Zhang, Xiaopeng Li, Yan Hu, Yongxi Lin, Yuxiang Chen, Zhuoying Ou, Jianghao Lin, Jeremy Avigad, Prasad Tetali, Jingbang Chen, and Sean Welleck"
+  venue: "arXiv preprint, 2026"
+  badge: "arXiv 2026"
+  preview: "reuf2f.png"
+  image_class: "wide"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2610.27046"
+    - label: "Code"
+      url: "https://github.com/cmu-l3/reuF2F"
+  description: "ReuF2F asks coding agents to prove or refute 244 formalized open research problems in Lean 4. A unified Leanimum-agent harness and independent verification with the Lean kernel and nanoda support trustworthy evaluation of long-horizon mathematical exploration."
+
 - title: "Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation"
   order: 5
+  area: post-training
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Haotian Fang, Xukun Luo, Hao Yin, Yang Gao, Peng Yan, Weiwen Liu, Weinan Zhang, and Yong Yu"
@@ -24,6 +75,7 @@
 
 - title: "MMSkills: Towards Multimodal Skills for General Visual Agents"
   order: 1
+  area: agent-harness
   first_author: true
   author_role: "Co-first Author"
   authors: "**Kangning Zhang**\\*, Shuai Shao\\*, Qingyao Li, Jianghao Lin, Lingyue Fu, Shijian Wang, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
@@ -50,6 +102,7 @@
 
 - title: "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation"
   order: 3
+  area: post-training
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Yixing Li, Shuai Shao, Qingyao Li, Zhengxi Lu, Zhiyuan Yao, Jianghao Lin, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
@@ -71,6 +124,7 @@
 
 - title: "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories"
   order: 2
+  area: agent-harness
   first_author: true
   author_role: "Co-first Author"
   authors: "Shuai Shao\\*, **Kangning Zhang**\\*, Qingyao Li, Shijian Wang, Hao Wang, Wenxiang Jiao, Yuan Lu, Yi Guo, Weiwen Liu, and Weinan Zhang"
@@ -92,6 +146,7 @@
 
 - title: "LoopTool: Closing the Data-Training Loop for Robust LLM Tool Calls"
   order: 4
+  area: post-training
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Wenxiang Jiao, Kounianhua Du, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
@@ -117,6 +172,7 @@
 
 - title: "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents"
   order: 6
+  area: agent-harness
   authors: "Qingyao Li, Wenxiang Jiao, Shuai Shao, **Kangning Zhang**, Yuan Lu, Yi Guo, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
   badge: "arXiv 2026"
@@ -137,6 +193,7 @@
 
 - title: "AlignRec: Aligning and Training in Multimodal Recommendations"
   order: 7
+  area: recommendation
   first_author: true
   author_role: "Co-first Author"
   authors: "Yifan Liu\\*, **Kangning Zhang**\\*, Xiangyuan Ren, Yanhua Huang, Jiarui Jin, Yingjie Qin, Ruilong Su, Ruiwen Xu, Yong Yu, and Weinan Zhang"
@@ -158,6 +215,7 @@
 
 - title: "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations"
   order: 8
+  area: robotics
   authors: "Yanjie Ze\\*, Gu Zhang\\*, **Kangning Zhang**, Chenyuan Hu, Muhan Wang, and Huazhe Xu"
   venue: "Robotics: Science and Systems (RSS), 2024"
   badge: "RSS 2024"
@@ -181,6 +239,7 @@
 
 - title: "Learning ID-free Item Representation with Token Crossing for Multimodal Recommendation"
   order: 9
+  area: recommendation
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Jiarui Jin, Yingjie Qin, Ruilong Su, Jianghao Lin, Yong Yu, and Weinan Zhang"
@@ -199,6 +258,7 @@
 
 - title: "DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation"
   order: 10
+  area: recommendation
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Yingjie Qin, Weinan Zhang, Yong Yu, and Jianghao Lin"
@@ -217,6 +277,7 @@
 
 - title: "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution"
   order: 11
+  area: agent-harness
   authors: "Zhiyuan Yao, Yuxin Chen, Zhengxi Lu, Zishan Xu, Yueqing Sun, Yifu Guo, Yuquan Lu, Zhengzhou Cai, **Kangning Zhang**, Zhuowen Han, Zi-Han Wang, Ziang Ye, Qi Gu, Xunliang Cai, Weiwen Liu, and Yongliang Shen"
   venue: "arXiv preprint, 2026"
   badge: "arXiv 2026"
@@ -231,6 +292,7 @@
 
 - title: "SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution Cycle"
   order: 12
+  area: benchmarks
   authors: "Hao Guan, Lingyue Fu, Shao Zhang, Yaoming Zhu, **Kangning Zhang**, Lin Qiu, Xunliang Cai, Xuezhi Cao, Weiwen Liu, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2026"
   badge: "arXiv 2026"
@@ -245,6 +307,7 @@
 
 - title: "MuSEAgent: A Multimodal Reasoning Agent with Stateful Experiences"
   order: 13
+  area: agent-harness
   authors: "Shijian Wang, Jiarui Jin, Runhao Fu, Zexuan Yan, Xingjian Wang, Mengkang Hu, Eric Wang, Xiaoxi Li, **Kangning Zhang**, Li Yao, Wenxiang Jiao, Xuelian Cheng, Yuan Lu, and Zongyuan Ge"
   venue: "arXiv preprint, 2026"
   badge: "arXiv 2026"
@@ -259,6 +322,7 @@
 
 - title: "Fints: Efficient Inference-Time Personalization for LLMs with Fine-Grained Instance-Tailored Steering"
   order: 14
+  area: recommendation
   authors: "Kounianhua Du, Jianxing Liu, **Kangning Zhang**, Wenxiang Jiao, Yuan Lu, Jiarui Jin, Weiwen Liu, Yong Yu, and Weinan Zhang"
   venue: "arXiv preprint, 2025"
   badge: "arXiv 2025"
@@ -275,8 +339,24 @@
       stars: 7
   description: "Fints performs inference-time personalization by selecting fine-grained, instance-tailored steering signals for dynamic user preferences and sparse personalization data."
 
+- title: 'Video-Thinker: Sparking "Thinking with Videos" via Reinforcement Learning'
+  order: 14
+  area: post-training
+  # Authorship follows the supplied CV, as confirmed by Kangning on 2026-11-05.
+  # The linked arXiv version predates this author list.
+  authors: "Shijian Wang, Jiarui Jin, Xingjian Wang, …, **Kangning Zhang**"
+  venue: "Manuscript under review"
+  badge: "Under review"
+  preview: "video-thinker.png"
+  image_class: "wide"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2510.23473"
+  description: "Video-Thinker combines supervised fine-tuning and reinforcement learning to let multimodal models reason with videos through intrinsic grounding and captioning, generating visual evidence within the reasoning process."
+
 - title: "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models"
   order: 15
+  area: post-training
   authors: "Congmin Zheng, Jiachen Zhu, Zhuoying Ou, Yuxiang Chen, **Kangning Zhang**, Rong Shan, Zeyu Zheng, Mengyue Yang, Jianghao Lin, Yong Yu, and Weinan Zhang"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
   badge: "ACL 2026"
@@ -292,6 +372,7 @@
 
 - title: "An Automatic Graph Construction Framework based on Large Language Models for Recommendation"
   order: 16
+  area: recommendation
   authors: "Rong Shan, Jianghao Lin, Chenxu Zhu, Bo Chen, Menghui Zhu, **Kangning Zhang**, Jieming Zhu, Ruiming Tang, Yong Yu, and Weinan Zhang"
   venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2025"
   badge: "KDD 2025"
@@ -310,6 +391,7 @@
 
 - title: "ClickPrompt: CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction"
   order: 17
+  area: recommendation
   authors: "Jianghao Lin, Bo Chen, Hangyu Wang, Yunjia Xi, Yanru Qu, Xinyi Dai, **Kangning Zhang**, Ruiming Tang, Yong Yu, and Weinan Zhang"
   venue: "The ACM Web Conference (WWW), 2024"
   badge: "WWW 2024"
@@ -328,6 +410,7 @@
 
 - title: "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models"
   order: 18
+  area: benchmarks
   authors: "Lingyue Fu, Huacan Chai, Shuang Luo, Kounianhua Du, Weiming Zhang, Longteng Fan, Jiayi Lei, Renting Rui, Jianghao Lin, Yuchen Fang, Yifan Liu, Jingkuan Wang, Siyuan Qi, **Kangning Zhang**, Weinan Zhang, and Yong Yu"
   venue: "arXiv preprint, 2023"
   badge: "arXiv 2023"

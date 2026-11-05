@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: complete list of papers and preprints.
+description: Papers and preprints across five connected research directions.
 nav: true
 nav_order: 3
 ---

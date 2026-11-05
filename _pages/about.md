@@ -27,7 +27,7 @@ latest_posts:
 
 I am a second-year Ph.D. student at the [APEX Lab](https://apex.sjtu.edu.cn/), Shanghai Jiao Tong University, advised by Prof. [Weiwen Liu](https://wwliu555.github.io/), Prof. [Weinan Zhang](https://wnzhang.net/), and Prof. [Yong Yu](https://apex.sjtu.edu.cn/members/yyu).
 
-My research primarily focuses on **Recursive Self-Improvement (RSI)**, **Agent Harness**, and **LLM Post-Training**. I am also interested in recommender systems and robotics learning.
+My research focuses on **LLM Post-Training**, **Agent Harness & Self-Evolution**, and **Long-Horizon Benchmarks & Evaluation**—learning better policies, improving how agents execute, and verifying their capabilities on real tasks. I also work on **robotics learning** and **recommender systems**.
 
 I received my bachelor's degree in Computer Science from the IEEE Pilot Class at Shanghai Jiao Tong University in 2024.
 
