@@ -1,3 +1,10 @@
+- date: 2026-11-14
+  type: acceptance
+  text: "[VAD](https://arxiv.org/abs/2607.28590) was accepted by **KDD 2027** on November 14!"
+  links:
+    - label: "Code"
+      url: "https://github.com/DeepExperience/VAD_Multimodal_OPD"
+
 - date: 2026-11-03
   type: release
   text: "[HARNESS-S](https://arxiv.org/abs/2611.04277) is available on arXiv: learning from sibling harnesses for generalizable agent training."

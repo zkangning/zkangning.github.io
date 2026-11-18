@@ -106,8 +106,9 @@
   first_author: true
   author_role: "First Author"
   authors: "**Kangning Zhang**, Yixing Li, Shuai Shao, Qingyao Li, Zhengxi Lu, Zhiyuan Yao, Jianghao Lin, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, and Yong Yu"
-  venue: "arXiv preprint, 2026"
-  badge: "arXiv 2026"
+  venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2027"
+  badge: "KDD 2027"
+  note: "Accepted Paper"
   preview: "vad.png"
   image_class: "wide"
   featured: true
